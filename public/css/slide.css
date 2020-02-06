@@ -1,0 +1,98 @@
+/* 轮播图部分 */
+.big-slide{
+  height: 900px;
+  width: 100%;
+  position:relative;
+  overflow: hidden;
+}
+.small-slide{
+  position:relative;
+}
+.swiper-container{
+  width: 1920px;
+  position:absolute;
+  left:-360px;
+  overflow: hidden;
+}
+.swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  background:#fff;
+} 
+.swiper-pagination-bullet-active{
+  background:#442818;
+}
+
+/* 分区 */
+.ad-slide-img{
+  width: 1200px;
+  margin:40px auto 0;
+  overflow:hidden;
+}
+.ad-conter{
+  margin:0 14px;
+}
+
+/* 人气推荐 */
+.floor-list{
+  width: 1100px;
+  margin:0 auto;
+}
+.floor-list .ab-hd{
+  margin:100px 0 20px 0;
+  font-size:26px;
+  line-height:26px;
+  font-weight: normal;
+}
+.floor-list .ab-hd span{
+  font-size:14px;
+}
+.ab-show{
+  margin:20px 0;
+  overflow: hidden;
+}
+.ab-show .ab-part-img{
+  width: 260px;
+  height: 260px; 
+}
+.ab-show .ab-part-img img{
+  width: 260px;
+  height: 260px;
+}
+.ab-part-text h4{
+  padding-top:10px; 
+}
+.ab-des{
+  border-bottom:1px dashed red;
+  margin-bottom:8px;
+}
+.ab-des span{
+  margin:10px 0;
+  border:1px solid #724228;
+  display: inline-block;
+  padding:0 5px;
+  font-size: 12px;
+  border-radius:10px;
+  line-height: 14px;
+}
+.ab-part-text ins,del{
+  font-size: 14px;
+}
+.ab-show ul li{
+  float: left;
+  width: 260px;
+  margin-right:20px;
+}
+.ab-show ul li:nth-child(4){
+  margin-right:0px;
+}
+.ab-part-text span:nth-last-child(1){
+  font-size: 12px;
+  color:white;
+  background: #724228;
+  padding:0 5px;
+}
+
+.floor-second{
+  margin-top:100px;
+}

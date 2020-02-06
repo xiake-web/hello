@@ -1,0 +1,91 @@
+header{
+  height: 80px;
+}
+.header-box{
+  width: 100%;
+  height: 80px;
+  background:#fff;
+  position:fixed;
+  top:0;
+  left:0;
+  box-shadow:0px 2px 2px 0px #ccc;
+  font-size: 14px;
+  z-index: 11;
+}
+.header-box a{
+  color:#684929;
+  
+}
+.logo{
+  width: 120px;
+  height: 44px;
+  margin-top:18px;
+  overflow: hidden;
+}
+.logo img{
+  max-width: 120px;
+  max-height: 44px;
+}
+.nav,.buy-fool{
+  margin-top:18px;
+  height: 40px;
+  line-height: 40px;
+  margin-left:40px;
+}
+.nav ul li,.buy-fool ul li{
+  float:left;
+  padding:0 20px;
+}
+.buy-fool ul li{
+  position: relative;
+}
+.shopp{
+  position: relative;
+}
+.shopp b{
+  position: absolute;
+  top:5px;
+  right:15px;
+  border:1px solid #684929;
+  border-radius:50%;
+  width: 13px;
+  height: 13px;
+  line-height: 15px;
+  text-align: center;
+  font-size: 12px;
+  background: #ba9978;
+  color: white;
+}
+.buy-fool i{
+  padding-left:5px;
+}
+.docuration{
+  position: absolute;
+  left:-10px;
+  top:40px;
+  text-align: center;
+  box-shadow:0 0 3px 0 #684929;
+  display: none;
+  background: #fff;
+}
+.my1 .docuration img{
+  width: 100px;
+  height: 100px;
+}
+.my2 .docuration{
+  left:0px;
+  top:40px;
+  width: 100px;
+}
+.my2 .docuration .item{
+  line-height: 29px;
+}
+.my2 .docuration .item a{
+  font-size:12px;
+}
+.ci-right{
+  transition: transform .1s;
+}
+.my2:hover .ci-right{
+  transform:rotate(180deg);
+}

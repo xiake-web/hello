@@ -1,0 +1,28 @@
+footer{
+  background: #333;
+}
+.toor-logo img{
+  width: 70px;
+  height: 70px;
+  margin-top:50px;
+}
+.toor-intro ul li{
+  display: inline-block;
+  padding:0 15px;
+  margin:20px 0;
+  color:white;
+  font-size:14px;
+}
+.toor-mess{
+  font-size:12px;
+  color:#ccc;
+}
+.toor-mess div:nth-child(2){
+  margin:20px 0;
+}
+.toor-mess div:nth-child(3){
+  line-height:18px;
+}
+.toor-mess div:nth-child(4){
+  margin:20px 0;
+}
